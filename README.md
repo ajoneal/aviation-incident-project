@@ -10,11 +10,19 @@ The National Transportation Safety Board (NTSB) has collected data on aviation a
 
 **Guiding Question:**
 
-What human, environmental, and engineered factors most influence the likelihood of fatal in-flight incidents?
+What human, environmental, and engineered factors most influence the likelihood of fatalities or injuries during in-flight incidents?
 
 **Executive Summary**
 
 The featured project focused on the development and integration of advanced data science methods while identifying solutions of immediate social impact. We identified safety issues within the aviation industry as being of particular concern. Utilizing Natural Language Processing (NLP), Geographic Analysis, and Neural Networks, the team was able to isolate key attributes of general aviation accidents and their catalysts.
+
+**Order of Notebooks**
+1. *Json Data.ipynb* - scraping the data and saving into the dataset folder
+2. *dataset folder* - all scraped data from NTSB site along with cleaned data
+3. *Cleaning, Preprocessing, and EDA.ipynb* - cleaning of data, model preparation, and NLP EDA (cleaned dataframe saved to dataset folder)
+4. *model folder* - contains the different models we used in attempt to predict whether an aviation incident would lead to a death or injury
+5. *images folder* - contains all visualizations from EDA and modeling along with a Geomapping notebook that shows aviation incidents across the United States
+6. *Presentation.pdf* - stakeholder presentation of findings
 
 ---
 
