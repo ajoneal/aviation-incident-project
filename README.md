@@ -65,6 +65,8 @@ Data Cleaning focuses on navigating raw data by addressing errors, missing value
 
 Returning focus to the problem statement that guides the analysis, the featured EDA works to present and study a variety of statistical perspectives. The primary objective is to identify key trends/influences within the data that will serve both the predictive model and a meaningful solution.
 
+During our EDA, we completed natural language processing on the probable cause, factual narrative, and the analysis narrative parts of each incidents.  We found even more errors in the data collection with 'x0d' (which is an escape character) showing up a lot in the data.  It was also very apparent that all incidents had on or a combination of human error, machine failure, or meteorological conditions that caused the accident.  However, when we narrowed it down to the incidents where there was a death or injury, we began to see more human error leading to the cause of the incident.
+
 ---
 
 ### Preprocessing and Modeling
