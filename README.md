@@ -22,7 +22,7 @@ The featured project focused on the development and integration of advanced data
 3. *Cleaning, Preprocessing, and EDA.ipynb* - cleaning of data, model preparation, and NLP EDA (cleaned dataframe saved to dataset folder)
 4. *model folder* - contains the different models we used in attempt to predict whether an aviation incident would lead to a death or injury
 5. *images folder* - contains all visualizations from EDA and modeling along with a Geomapping notebook that shows aviation incidents across the United States
-6. *Presentation.pdf* - stakeholder presentation of findings
+6. *Aviation Incident Presentation.pdf* - stakeholder presentation of findings
 
 ---
 
